@@ -40,7 +40,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      // frameloop="demand" //uncomment for battery saving and perfomance enh.
+      frameloop="demand" //comment for floating
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
