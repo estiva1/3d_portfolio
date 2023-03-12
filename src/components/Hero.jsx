@@ -14,6 +14,7 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
+
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Stanislav</span>
@@ -21,7 +22,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {" "}
             I develop user interfaces <br className="sm:block hidden"></br> and
-            web applications.
+            web applications
           </p>
         </div>
       </div>
@@ -38,7 +39,7 @@ const Hero = () => {
           >
             <motion.div
               animate={{
-                y: [0, 24, 0],
+                y: [0, 26, 0],
               }}
               transition={{
                 duration: 1.5,
