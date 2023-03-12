@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -10,19 +9,21 @@ import {
   reactjs,
   redux,
   tailwind,
+  styledcomponents,
   nodejs,
-  mongodb,
+  firebase,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  magisoft,
   threejs,
+  materialui,
+  theformat,
+  predictoria,
+  clothingshop,
+  simplenews,
+  weatherapp,
+  postshandler,
+
 } from "../assets";
 
 export const navLinks = [
@@ -85,12 +86,24 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Styled Components",
+    icon: styledcomponents,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Material UI",
+    icon: materialui,
   },
   {
     name: "git",
@@ -104,50 +117,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Trainee Frontend Developer",
+    company_name: "Magisoft Solutions",
+    icon: magisoft,
+    iconBg: "#383E56",
+    date: "Sep 2021 - Oct 2021",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Magisoft Solutions",
+    icon: magisoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2021 - Oct 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -157,66 +144,45 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "The Format",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Format — is the art studio where painting lessons are conducted for children and adults.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -224,30 +190,138 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: theformat,
+    source_code_link: "https://www.facebook.com/groups/1446752648709961/",
   },
   {
-    name: "Trip Guide",
+    name: "Predictoria.com",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Predictoria — is a streaming platform with the most popular games streamed on. Still in beta.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "context",
+        color: "orange-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "tailwind",
+        color: "green-pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: predictoria,
+    source_code_link: "https://predictoria.com",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const petprojects = [
+  {
+    name: "Clothing Shop",
+    description:
+      "Clothing shop made with TypeScript, React, React Parallax Tilt, Redux, Redux Logger, Redux Persist, Redux Saga, Styled Components, Firebase and Stripe.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-pink-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: clothingshop,
+    source_code_link: "https://github.com/estiva1/estiva-clothing-shop",
+    live_view: "https://estiva-shop.netlify.app",
+  },
+  {
+    name: "Simple News",
+    description:
+      "Here you can read some latest news. Made with TypeScript, React, Redux, Redux Logger, Redux Saga, Styled Components and Material UI",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-pink-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "purpleblue-text-gradient",
+      },
+    ],
+    image: simplenews,
+    source_code_link: "https://github.com/estiva1/cb-spa",
+    live_view: "https://estiva-simple-news.netlify.app",
+  },
+  {
+    name: "Weather App",
+    description:
+      "Simple weather app made with React, CSS and Axios",
+    tags: [
+      {
+        name: "react",
+        color: "purpleblue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: weatherapp,
+    source_code_link: "https://github.com/estiva1/weather-app",
+    live_view: "https://estiva-weather.netlify.app",
+  },
+  {
+    name: "Posts Handler",
+    description:
+      "Posts handler that uses fake API with dynamic pagination. Fetch, find, sort, create, delete - here you can do all the things :)",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-transition-group",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: postshandler,
+    source_code_link: "https://github.com/estiva1/posts-handler",
+    live_view: "https://posts-handler.netlify.app",
+  },
+  
+];
+
+export { services, technologies, experiences, projects, petprojects }; // +testimonials

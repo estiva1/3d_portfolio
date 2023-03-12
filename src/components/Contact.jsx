@@ -31,18 +31,22 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // SN6mFmGOWYPej9YZw
+    // template_ioj98yo
+    // service_zpxww7n
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_zpxww7n",
+        "template_ioj98yo",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Stanislav",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "solarcoaster.st@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "SN6mFmGOWYPej9YZw"
       )
       .then(
         () => {
@@ -87,7 +91,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -98,7 +102,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Your email"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

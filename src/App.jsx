@@ -11,6 +11,7 @@ import {
   StarsCanvas,
   Navbar,
 } from "./components";
+import PetProjets from "./components/PetProjets";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <PetProjets />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
