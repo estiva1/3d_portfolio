@@ -73,30 +73,30 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  // {
-  //   name: "React JS",
-  //   icon: reactjs,
-  // },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Styled Components",
-  //   icon: styledcomponents,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "Firebase",
-  //   icon: firebase,
-  // },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Styled Components",
+    icon: styledcomponents,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
   // {
   //   name: "Three JS",
   //   icon: threejs,
@@ -123,10 +123,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sep 2021 - Oct 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews.",
     ],
   },
   {

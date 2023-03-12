@@ -26,7 +26,7 @@ const PetProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full shadow-card"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -38,7 +38,7 @@ const PetProjectCard = ({
           <div className="absolute inset-0 flex flex-col m-3 items-end card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient shadow-xl w-10 h-10 rounded-full flex justify-center items-center cursor-pointer "
             >
               <img
                 src={github}
@@ -49,7 +49,7 @@ const PetProjectCard = ({
 
             <div
               onClick={() => window.open(live_view, "_blank")}
-              className="black-gradient w-10 h-10 mt-3 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient shadow-xl w-10 h-10 mt-3 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={eye}
