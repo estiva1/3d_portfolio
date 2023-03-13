@@ -89,22 +89,22 @@ const technologies = [
     name: "Styled Components",
     icon: styledcomponents,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "Firebase",
     icon: firebase,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  // {
-  //   name: "Material UI",
-  //   icon: materialui,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "Material UI",
+    icon: materialui,
+  },
   // {
   //   name: "git",
   //   icon: git,
