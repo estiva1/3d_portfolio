@@ -26,6 +26,7 @@ import threejs from "./tech/threejs.svg";
 import materialui from "./tech/materialui.png";
 
 import magisoft from "./company/magisoft.png";
+import fourtyTwoFlowsTech from "./company/fourtyTwoFlowsTech.jpg"
 
 import theformat from "./theformat.png";
 import predictoria from "./predictoria.png";
@@ -62,6 +63,7 @@ export {
   threejs,
   materialui,
   magisoft,
+  fourtyTwoFlowsTech,
   predictoria,
   theformat,
   clothingshop,
