@@ -16,10 +16,12 @@ import {
   figma,
   magisoft,
   fourtyTwoFlowsTech,
+  salesSupport,
   threejs,
   materialui,
   theformat,
   predictoria,
+  salessupport,
   clothingshop,
   simplenews,
   weatherapp,
@@ -153,6 +155,18 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "React.js Developer",
+    company_name: "Sales.Support",
+    icon: salesSupport,
+    iconBg: "#E6DEDD",
+    date: "Apr 2023 - present",
+    points: [
+      "Redesigning the site, optimizing UI/UX",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
 ];
 
 // const testimonials = [
@@ -224,6 +238,35 @@ const projects = [
     ],
     image: predictoria,
     source_code_link: "https://predictoria.com",
+  },
+  {
+    name: "Sales.Support",
+    description:
+      "SALES.SUPPORT is an all in one tool Amazon for Sellers and Vendores.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "purpleblue-text-gradient",
+      },
+      {
+        name: "recharts",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: salessupport,
+    source_code_link: "https://sales.support",
   },
 ];
 

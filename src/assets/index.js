@@ -27,9 +27,11 @@ import materialui from "./tech/materialui.png";
 
 import magisoft from "./company/magisoft.png";
 import fourtyTwoFlowsTech from "./company/fourtyTwoFlowsTech.jpg"
+import salesSupport from "./company/sales-support.png"
 
 import theformat from "./theformat.png";
 import predictoria from "./predictoria.png";
+import salessupport from "./salessupport.png"
 
 import clothingshop from "./clothingshop.png";
 import simplenews from "./simplenews.png";
@@ -64,7 +66,9 @@ export {
   materialui,
   magisoft,
   fourtyTwoFlowsTech,
+  salesSupport,
   predictoria,
+  salessupport,
   theformat,
   clothingshop,
   simplenews,
